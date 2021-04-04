@@ -5,6 +5,9 @@ for vim.
 
 <img src="https://github.com/adrian5/oceanic-next-vim/blob/master/assets/theme-preview.png"
   width="600">
+  
+## Changes
+1. Added status line colors for diagnostic errors and warnings
 
 ## Installation
 

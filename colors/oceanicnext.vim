@@ -253,6 +253,8 @@ call s:HL("SpellCap", s:yellow, s:none, "undercurl", s:yellow)
 call s:HL("SpellLocal", s:blue, s:none, "undercurl", s:blue)
 call s:HL("SpellRare", s:lilac, s:none, "undercurl", s:lilac)
 call s:HL("StatusLine", s:fg, s:bg1)
+call s:HL("MyStatusLineError", s:red, s:bg1)
+call s:HL("MyStatusLineWarning", s:yellow, s:bg1)
 hi! link StatusLineTerm StatusLine
 call s:HL("StatusLineNC", s:fg1, s:bg1)
 hi! link StatusLineTermNC StatusLineNC

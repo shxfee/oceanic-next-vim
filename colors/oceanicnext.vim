@@ -898,12 +898,10 @@ hi! link scssSemicolon OcFg
 
 endif
 
-" ========================================================================== }}}
-
 
 " ----- Syntax (My Modification) ------------------------------------------- {{{
 
-call s:HL("CmpItemKindMethod", s:fg, s:bg)
+hi! CmpItemKindMethod guibg=NONE guifg=white
 
 " ========================================================================== }}}
 
